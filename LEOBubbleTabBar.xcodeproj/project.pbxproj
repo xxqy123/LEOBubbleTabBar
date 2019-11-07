@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		423649562373BAF2001D5CC9 /* LEOBubbleTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 423649542373BAF2001D5CC9 /* LEOBubbleTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		423649622373BB17001D5CC9 /* LEOTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4236495C2373BB16001D5CC9 /* LEOTabBarButton.m */; };
+		423649632373BB17001D5CC9 /* LEOTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4236495D2373BB16001D5CC9 /* LEOTabBar.m */; };
+		423649642373BB17001D5CC9 /* LEOTabBarButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4236495E2373BB16001D5CC9 /* LEOTabBarButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		423649662373BB17001D5CC9 /* LEOBubbleTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423649602373BB16001D5CC9 /* LEOBubbleTabBarController.m */; };
+		423649672373BB17001D5CC9 /* LEOBubbleTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 423649612373BB17001D5CC9 /* LEOBubbleTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4236497C2373BB69001D5CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4236497B2373BB69001D5CC9 /* Assets.xcassets */; };
+		4236497F2373BB69001D5CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4236497D2373BB69001D5CC9 /* LaunchScreen.storyboard */; };
+		423649822373BB69001D5CC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 423649812373BB69001D5CC9 /* main.m */; };
+		423649882373BBF8001D5CC9 /* LEOSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423649862373BBF8001D5CC9 /* LEOSampleViewController.m */; };
+		423649902373BC1E001D5CC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4236498B2373BC1E001D5CC9 /* AppDelegate.m */; };
+		423649912373BC1E001D5CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4236498D2373BC1E001D5CC9 /* Main.storyboard */; };
+		423649922373BC1E001D5CC9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4236498E2373BC1E001D5CC9 /* SceneDelegate.m */; };
+		423649932373BC1E001D5CC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4236498F2373BC1E001D5CC9 /* ViewController.m */; };
+		423649962373C34F001D5CC9 /* LEOTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 423649952373C34F001D5CC9 /* LEOTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		423649982373C56C001D5CC9 /* LEOBubbleTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423649512373BAF2001D5CC9 /* LEOBubbleTabBar.framework */; };
+		423649992373C56C001D5CC9 /* LEOBubbleTabBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 423649512373BAF2001D5CC9 /* LEOBubbleTabBar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4236499A2373C56C001D5CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423649482373BAF2001D5CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423649502373BAF2001D5CC9;
+			remoteInfo = LEOBubbleTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4236499C2373C56C001D5CC9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				423649992373C56C001D5CC9 /* LEOBubbleTabBar.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		423649512373BAF2001D5CC9 /* LEOBubbleTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LEOBubbleTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		423649542373BAF2001D5CC9 /* LEOBubbleTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEOBubbleTabBar.h; sourceTree = "<group>"; };
+		423649552373BAF2001D5CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4236495C2373BB16001D5CC9 /* LEOTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOTabBarButton.m; sourceTree = "<group>"; };
+		4236495D2373BB16001D5CC9 /* LEOTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOTabBar.m; sourceTree = "<group>"; };
+		4236495E2373BB16001D5CC9 /* LEOTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOTabBarButton.h; sourceTree = "<group>"; };
+		423649602373BB16001D5CC9 /* LEOBubbleTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOBubbleTabBarController.m; sourceTree = "<group>"; };
+		423649612373BB17001D5CC9 /* LEOBubbleTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOBubbleTabBarController.h; sourceTree = "<group>"; };
+		4236496D2373BB68001D5CC9 /* LEOBubble TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LEOBubble TabBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4236497B2373BB69001D5CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4236497E2373BB69001D5CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		423649802373BB69001D5CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423649812373BB69001D5CC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		423649862373BBF8001D5CC9 /* LEOSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOSampleViewController.m; sourceTree = "<group>"; };
+		423649872373BBF8001D5CC9 /* LEOSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOSampleViewController.h; sourceTree = "<group>"; };
+		423649892373BC1E001D5CC9 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4236498A2373BC1E001D5CC9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4236498B2373BC1E001D5CC9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4236498C2373BC1E001D5CC9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4236498D2373BC1E001D5CC9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4236498E2373BC1E001D5CC9 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4236498F2373BC1E001D5CC9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		423649952373C34F001D5CC9 /* LEOTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOTabBar.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4236494E2373BAF2001D5CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4236496A2373BB68001D5CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423649982373C56C001D5CC9 /* LEOBubbleTabBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		423649472373BAF2001D5CC9 = {
+			isa = PBXGroup;
+			children = (
+				4236496E2373BB68001D5CC9 /* ExampleApp */,
+				423649532373BAF2001D5CC9 /* LEOBubbleTabBar */,
+				423649522373BAF2001D5CC9 /* Products */,
+				423649972373C56C001D5CC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		423649522373BAF2001D5CC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				423649512373BAF2001D5CC9 /* LEOBubbleTabBar.framework */,
+				4236496D2373BB68001D5CC9 /* LEOBubble TabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		423649532373BAF2001D5CC9 /* LEOBubbleTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				423649542373BAF2001D5CC9 /* LEOBubbleTabBar.h */,
+				423649682373BB27001D5CC9 /* Classes */,
+				423649552373BAF2001D5CC9 /* Info.plist */,
+			);
+			path = LEOBubbleTabBar;
+			sourceTree = "<group>";
+		};
+		423649682373BB27001D5CC9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				423649952373C34F001D5CC9 /* LEOTabBar.h */,
+				4236495D2373BB16001D5CC9 /* LEOTabBar.m */,
+				423649612373BB17001D5CC9 /* LEOBubbleTabBarController.h */,
+				423649602373BB16001D5CC9 /* LEOBubbleTabBarController.m */,
+				4236495E2373BB16001D5CC9 /* LEOTabBarButton.h */,
+				4236495C2373BB16001D5CC9 /* LEOTabBarButton.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4236496E2373BB68001D5CC9 /* ExampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				4236498A2373BC1E001D5CC9 /* AppDelegate.h */,
+				4236498B2373BC1E001D5CC9 /* AppDelegate.m */,
+				4236498D2373BC1E001D5CC9 /* Main.storyboard */,
+				423649892373BC1E001D5CC9 /* SceneDelegate.h */,
+				4236498E2373BC1E001D5CC9 /* SceneDelegate.m */,
+				4236498C2373BC1E001D5CC9 /* ViewController.h */,
+				4236498F2373BC1E001D5CC9 /* ViewController.m */,
+				4236497B2373BB69001D5CC9 /* Assets.xcassets */,
+				4236497D2373BB69001D5CC9 /* LaunchScreen.storyboard */,
+				423649802373BB69001D5CC9 /* Info.plist */,
+				423649812373BB69001D5CC9 /* main.m */,
+				423649872373BBF8001D5CC9 /* LEOSampleViewController.h */,
+				423649862373BBF8001D5CC9 /* LEOSampleViewController.m */,
+			);
+			path = ExampleApp;
+			sourceTree = "<group>";
+		};
+		423649972373C56C001D5CC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4236494C2373BAF2001D5CC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423649562373BAF2001D5CC9 /* LEOBubbleTabBar.h in Headers */,
+				423649962373C34F001D5CC9 /* LEOTabBar.h in Headers */,
+				423649672373BB17001D5CC9 /* LEOBubbleTabBarController.h in Headers */,
+				423649642373BB17001D5CC9 /* LEOTabBarButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		423649502373BAF2001D5CC9 /* LEOBubbleTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423649592373BAF2001D5CC9 /* Build configuration list for PBXNativeTarget "LEOBubbleTabBar" */;
+			buildPhases = (
+				4236494C2373BAF2001D5CC9 /* Headers */,
+				4236494D2373BAF2001D5CC9 /* Sources */,
+				4236494E2373BAF2001D5CC9 /* Frameworks */,
+				4236494F2373BAF2001D5CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEOBubbleTabBar;
+			productName = LEOBubbleTabBar;
+			productReference = 423649512373BAF2001D5CC9 /* LEOBubbleTabBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4236496C2373BB68001D5CC9 /* ExampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423649832373BB69001D5CC9 /* Build configuration list for PBXNativeTarget "ExampleApp" */;
+			buildPhases = (
+				423649692373BB68001D5CC9 /* Sources */,
+				4236496A2373BB68001D5CC9 /* Frameworks */,
+				4236496B2373BB68001D5CC9 /* Resources */,
+				4236499C2373C56C001D5CC9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4236499B2373C56C001D5CC9 /* PBXTargetDependency */,
+			);
+			name = ExampleApp;
+			productName = ExampleApp;
+			productReference = 4236496D2373BB68001D5CC9 /* LEOBubble TabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		423649482373BAF2001D5CC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = cc;
+				TargetAttributes = {
+					423649502373BAF2001D5CC9 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					4236496C2373BB68001D5CC9 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 4236494B2373BAF2001D5CC9 /* Build configuration list for PBXProject "LEOBubbleTabBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 423649472373BAF2001D5CC9;
+			productRefGroup = 423649522373BAF2001D5CC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4236496C2373BB68001D5CC9 /* ExampleApp */,
+				423649502373BAF2001D5CC9 /* LEOBubbleTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4236494F2373BAF2001D5CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4236496B2373BB68001D5CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423649912373BC1E001D5CC9 /* Main.storyboard in Resources */,
+				4236497F2373BB69001D5CC9 /* LaunchScreen.storyboard in Resources */,
+				4236497C2373BB69001D5CC9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4236494D2373BAF2001D5CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423649662373BB17001D5CC9 /* LEOBubbleTabBarController.m in Sources */,
+				423649632373BB17001D5CC9 /* LEOTabBar.m in Sources */,
+				423649622373BB17001D5CC9 /* LEOTabBarButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423649692373BB68001D5CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423649822373BB69001D5CC9 /* main.m in Sources */,
+				423649882373BBF8001D5CC9 /* LEOSampleViewController.m in Sources */,
+				423649902373BC1E001D5CC9 /* AppDelegate.m in Sources */,
+				423649922373BC1E001D5CC9 /* SceneDelegate.m in Sources */,
+				423649932373BC1E001D5CC9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4236499B2373C56C001D5CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 423649502373BAF2001D5CC9 /* LEOBubbleTabBar */;
+			targetProxy = 4236499A2373C56C001D5CC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4236497D2373BB69001D5CC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4236497E2373BB69001D5CC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		423649572373BAF2001D5CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		423649582373BAF2001D5CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4236495A2373BAF2001D5CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LEOBubbleTabBar/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.test.LEOBubbleTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4236495B2373BAF2001D5CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LEOBubbleTabBar/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.test.LEOBubbleTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		423649842373BB69001D5CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.test.ExampleApp;
+				PRODUCT_NAME = "LEOBubble TabBar";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		423649852373BB69001D5CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.test.ExampleApp;
+				PRODUCT_NAME = "LEOBubble TabBar";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4236494B2373BAF2001D5CC9 /* Build configuration list for PBXProject "LEOBubbleTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423649572373BAF2001D5CC9 /* Debug */,
+				423649582373BAF2001D5CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423649592373BAF2001D5CC9 /* Build configuration list for PBXNativeTarget "LEOBubbleTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4236495A2373BAF2001D5CC9 /* Debug */,
+				4236495B2373BAF2001D5CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423649832373BB69001D5CC9 /* Build configuration list for PBXNativeTarget "ExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423649842373BB69001D5CC9 /* Debug */,
+				423649852373BB69001D5CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 423649482373BAF2001D5CC9 /* Project object */;
+}
