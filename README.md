@@ -1,7 +1,7 @@
 # LEOBubbleTabBar
 [bubble-icon-tabbar](https://github.com/Cuberto/bubble-icon-tabbar#requirements) using Objective-C
 
-a custom TabBar inherit from UITabBar with bubble animation when selecting
+A custom TabBar inherit from UITabBar with bubble animation when selecting
 
 ![](https://github.com/xxqy123/LEOBubbleTabBar/blob/master/Screenshots/BubbleTabBar.gif?raw=true)
 
