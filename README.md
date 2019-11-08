@@ -3,6 +3,8 @@
 
 a custom TabBar inherit from UITabBar with bubble animation when selecting
 
+![](https://github.com/xxqy123/LEOBubbleTabBar/blob/master/Screenshots/BubbleTabBar.gif?raw=true)
+
 ## Requirements
 * iOS 9.0+
 * Xcode 10+
