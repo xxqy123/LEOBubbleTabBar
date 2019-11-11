@@ -13,7 +13,11 @@ A custom TabBar inherit from UITabBar with bubble animation when selecting
 To run the example project, clone the repo, and run ``ExampleApp`` scheme from LEOBubbleTabBar.xcodeproj
 
 ## Installation
-TO DO
+### Using Cocoapods
+Add the following to your ``Podfile`` and run ``$ pod install``.
+```
+pod 'LEOBubbleTabBar', '~> 0.1'
+```
 
 ## Usage
 ### With StoryBoard
